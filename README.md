@@ -117,9 +117,9 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://www.arction.com/support-services/
 
-[Palette]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#palette
-[PieChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/piechart.html
-[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#slicelabelformatter
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidfill.html
-[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#solidfillpalette
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidline.html
+[Palette]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#palette
+[PieChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/piechart.html
+[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#slicelabelformatter
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidfill.html
+[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#solidfillpalette
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidline.html
