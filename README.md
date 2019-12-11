@@ -14,7 +14,8 @@ The demo can be used as an example or a seed project. Local execution requires t
 
 - The application is available at *http://localhost:8080* in your browser, webpack-dev-server provides hot reload functionality.
 
-### Description
+
+## Description
 
 Donut Chart is a variation of Pie chart - functionally it's the same, visually it's only missing the center.
 
@@ -87,17 +88,18 @@ const customStrokeStyle = new SolidLine(
 chart.setSliceStrokeStyle( customStrokeStyle )
 ```
 
-### API links
 
-* Pie chart: [PieChart][]
-* Pie Slice label formatter: [SliceLabelFormatter][]
-* Color Palette: [Palette][]
-* Solid Fill Palette: [SolidFillPalette][]
-* Solid Line: [SolidLine][]
-* Solid Fill: [SolidFill][]
+## API Links
+
+* Pie chart: [PieChart]
+* Pie Slice label formatter: [SliceLabelFormatter]
+* Color Palette: [Palette]
+* Solid Fill Palette: [SolidFillPalette]
+* Solid Line: [SolidLine]
+* Solid Fill: [SolidFill]
 
 
-### Support
+## Support
 
 If you notice an error in the example code, please open an issue on [GitHub][0] repository of the entire example.
 
@@ -109,17 +111,19 @@ If you think you found a bug in the LightningChart JavaScript library, please co
 
 Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@arction.com.
 
-© Arction Ltd 2009-2019. All rights reserved.
-
 [0]: https://github.com/Arction/
 [1]: https://www.arction.com/lightningchart-js-api-documentation/
 [2]: https://www.arction.com
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://www.arction.com/support-services/
 
-[Palette]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#palette
-[PieChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/piechart.html
-[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#slicelabelformatter
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidfill.html
-[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#solidfillpalette
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidline.html
+© Arction Ltd 2009-2019. All rights reserved.
+
+
+[PieChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/piechart.html
+[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#slicelabelformatter
+[Palette]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#palette
+[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/globals.html#solidfillpalette
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidline.html
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.2.0/classes/solidfill.html
+
