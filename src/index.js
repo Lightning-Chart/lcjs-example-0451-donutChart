@@ -28,7 +28,7 @@ const donut = lightningChart().Pie({ type: PieChartTypes.LabelsInsideSlices })
     .setInnerRadius(60)
 
 // ----- Cache stroke style used for Slice borders. -----
-const customStrokeStyle = new SolidLine({ fillStyle: new SolidFill({ color: ColorRGBA(255, 255, 255) }), thickness: 5 })
+const customStrokeStyle = new SolidLine({ fillStyle: new SolidFill({ color: ColorRGBA(200, 200, 200) }), thickness: 5 })
 
 // ----- Static data -----
 const data = {
@@ -45,23 +45,23 @@ for (let i = 0; i < data.values.length; i++) {
 
 // ----- Create custom Palette for Donut (defines color of Slice filling) ----
 const colorArray = [
-    ColorRGBA( 97, 33, 15, 255 ),
-    ColorRGBA( 255, 140, 66, 255 ),
-    ColorRGBA( 225, 86, 52, 255 ),
-    ColorRGBA( 234, 43, 31, 255 ),
-    ColorRGBA( 249, 223, 116, 255 ),
-    ColorRGBA( 245, 224, 183, 255 )
+    ColorRGBA(97, 33, 15, 255),
+    ColorRGBA(255, 140, 66, 255),
+    ColorRGBA(225, 86, 52, 255),
+    ColorRGBA(234, 43, 31, 255),
+    ColorRGBA(249, 223, 116, 255),
+    ColorRGBA(245, 224, 183, 255)
 ]
 
 // The color palette should be a function that returns a specific color - in this case, just return a color from a specific index in the array
-const colorPalette = ( length ) => ( index ) => {
+const colorPalette = (length) => (index) => {
     return colorArray[index]
 }
 
 // Use the SolidFillPalette to create a fillStyle palette which the chart can use to easily assign fillStyles using colors from the given color palette
-const fillStylePalette = SolidFillPalette( colorPalette, data.values.length)
+const fillStylePalette = SolidFillPalette(colorPalette, data.values.length)
 // Set the custom fillStyle for the Donut Chart
-donut.setSliceFillStyle( fillStylePalette )
+donut.setSliceFillStyle(fillStylePalette)
 
 // ----- Create Slices -----
 processedData.map((item) => donut.addSlice(item.name, item.value))
