@@ -43,7 +43,8 @@ chart.setAnimationsEnabled( false )
 The slice fill styles can be styled by using a palette. A palette is a collection of fill styles which can be called by index.
 
 ```javascript
-// Use a palette of colors to create the Fill Styles. You can also create your own - check the ColorPalettes documentation for more info.
+// Use a palette of colors to create the Fill Styles. You can also create your own 
+// - check the ColorPalettes documentation for more info.
 const colorPalette = ColorPalettes.fullSpectrum
 // Create a palette of Fill Styles to use with the Pie Chart's Slices.
 const fillStylePalette = SolidFillPalette( colorPalette, 10 )
@@ -63,12 +64,14 @@ const colorArray = [
     ColorRGBA( 249, 223, 116, 255 ),
     ColorRGBA( 245, 224, 183, 255 )
 ]
-// Create a simple function which returns a color based on index. Both parameters (length and index) can be used to create more complex functions -
+// Create a simple function which returns a color based on index. 
+// Both parameters (length and index) can be used to create more complex functions -
 // length should be the length of the color array.
 const colorPalette = ( length ) => ( index ) => {
     return colorArray[index]
 }
-// Pass the color palette to the SolidFillPalette method, which returns a fillStyle palette that can be used with the Donut Chart
+// Pass the color palette to the SolidFillPalette method,
+// which returns a fillStyle palette that can be used with the Donut Chart
 const fillStylePalette = SolidFillPalette( colorPalette, data.values.length)
 // Set the custom fillStyle for the Donut Chart
 donut.setSliceFillStyle( fillStylePalette )
