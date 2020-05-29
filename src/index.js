@@ -28,7 +28,7 @@ const donut = lightningChart().Pie({ type: PieChartTypes.LabelsInsideSlices })
     .setInnerRadius(60)
 
 // ----- Cache stroke style used for Slice borders. -----
-const customStrokeStyle = new SolidLine({ fillStyle: new SolidFill({ color: ColorRGBA(200, 200, 200) }), thickness: 5 })
+const customStrokeStyle = new SolidLine({ fillStyle: new SolidFill({ color: ColorRGBA(50, 70, 80) }), thickness: 5 })
 
 // ----- Static data -----
 const data = {
@@ -45,12 +45,12 @@ for (let i = 0; i < data.values.length; i++) {
 
 // ----- Create custom Palette for Donut (defines color of Slice filling) ----
 const colorArray = [
-    ColorRGBA(97, 33, 15, 255),
-    ColorRGBA(255, 140, 66, 255),
-    ColorRGBA(225, 86, 52, 255),
-    ColorRGBA(234, 43, 31, 255),
-    ColorRGBA(249, 223, 116, 255),
-    ColorRGBA(245, 224, 183, 255)
+    ColorRGBA(219, 155, 36, 255),
+    ColorRGBA(219, 102, 36, 255),
+    ColorRGBA(173, 21, 74, 255),
+    ColorRGBA(173, 168, 21, 255),
+    ColorRGBA(223, 64, 64, 255),
+    ColorRGBA(173, 100, 21, 255)
 ]
 
 // The color palette should be a function that returns a specific color - in this case, just return a color from a specific index in the array
