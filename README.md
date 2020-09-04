@@ -96,12 +96,12 @@ chart.setSliceStrokeStyle( customStrokeStyle )
 
 ## API Links
 
-* Pie chart: [PieChart]
-* Pie Slice label formatter: [SliceLabelFormatter]
-* Color Palette: [Palette]
-* Solid Fill Palette: [SolidFillPalette]
-* Solid Line: [SolidLine]
-* Solid Fill: [SolidFill]
+* [Pie chart]
+* [Pie Slice label formatter]
+* [Color Palette]
+* [Solid Fill Palette]
+* [Solid Line]
+* [Solid Fill]
 
 
 ## Support
@@ -125,10 +125,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[PieChart]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/piechart.html
-[SliceLabelFormatter]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#slicelabelformatter
-[Palette]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#palette
-[SolidFillPalette]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#solidfillpalette
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidline.html
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidfill.html
+[Pie chart]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/piechart.html
+[Pie Slice label formatter]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#slicelabelformatter
+[Color Palette]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#palette
+[Solid Fill Palette]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#solidfillpalette
+[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidline.html
+[Solid Fill]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidfill.html
 

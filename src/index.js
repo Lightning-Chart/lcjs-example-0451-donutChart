@@ -16,10 +16,14 @@ const {
     UIDraggingModes,
     SolidFillPalette,
     SliceLabelFormatters,
-    UIOrigins
+    UIOrigins,
+    Themes
 } = lcjs
 
-const donut = lightningChart().Pie({ type: PieChartTypes.LabelsInsideSlices })
+const donut = lightningChart().Pie({
+    // theme: Themes.dark 
+    type: PieChartTypes.LabelsInsideSlices
+})
     .setTitle('Inter Hotels - hotel visitors in June 2016')
     .setPadding({ top: 40 })
     .setAnimationsEnabled(true)
