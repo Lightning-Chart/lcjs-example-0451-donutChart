@@ -72,15 +72,12 @@ processedData.map((item) => donut.addSlice(item.name, item.value))
 donut.setLabelFormatter(SliceLabelFormatters.NamePlusValue).setSliceStrokeStyle(customStrokeStyle)
 // ----- Add LegendBox -----
 donut.addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
-    .setPosition({ x: 1, y: 99 })
-    .setOrigin(UIOrigins.LeftTop)
-    .setMargin(5)
     .add(donut)
 
 // ----- Add TextBox -----
 donut.addUIElement(UIElementBuilders.TextBox.addStyler(
     textBox =>
-        textBox.setFont(fontSettings => fontSettings.setSize(25)).setText(`Total: ${totalVisitor} visitors`)
+        textBox.setTextFont(fontSettings => fontSettings.setSize(25)).setText(`Total: ${totalVisitor} visitors`)
 ))
     .setPosition({ x: 50, y: 50 })
     .setOrigin(UIOrigins.CenterTop)
