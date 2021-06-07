@@ -125,10 +125,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[Pie chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/piechart.html
-[Pie Slice label formatter]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#slicelabelformatter
-[Color Palette]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#palette
-[Solid Fill Palette]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/globals.html#solidfillpalette
-[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/solidline.html
-[Solid Fill]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.0/classes/solidfill.html
+[Pie chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/classes/piechart.html
+[Pie Slice label formatter]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/globals.html#slicelabelformatter
+[Color Palette]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/globals.html#palette
+[Solid Fill Palette]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/globals.html#solidfillpalette
+[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/classes/solidline.html
+[Solid Fill]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/classes/solidfill.html
 
