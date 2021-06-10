@@ -1,6 +1,6 @@
-# Donut Chart
+# JavaScript Donut Chart
 
-![Donut Chart](donutChart.png)
+![JavaScript Donut Chart](donutChart.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
