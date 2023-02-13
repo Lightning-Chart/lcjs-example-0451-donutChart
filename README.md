@@ -1,6 +1,6 @@
 # JavaScript Donut Chart
 
-![JavaScript Donut Chart](donutChart.png)
+![JavaScript Donut Chart](donutChart-darkGold.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
@@ -8,13 +8,13 @@ LightningChart JS is entirely GPU accelerated and performance optimized charting
 
 The demo can be used as an example or a seed project. Local execution requires the following steps:
 
-- Make sure that relevant version of [Node.js](https://nodejs.org/en/download/) is installed
-- Open the project folder in a terminal:
+-   Make sure that relevant version of [Node.js](https://nodejs.org/en/download/) is installed
+-   Open the project folder in a terminal:
 
-        npm install              # fetches dependencies
-        npm start                # builds an application and starts the development server
+          npm install              # fetches dependencies
+          npm start                # builds an application and starts the development server
 
-- The application is available at *http://localhost:8080* in your browser, webpack-dev-server provides hot reload functionality.
+-   The application is available at _http://localhost:8080_ in your browser, webpack-dev-server provides hot reload functionality.
 
 
 ## Description
@@ -37,18 +37,18 @@ Animations are enabled by default.
 
 ```javascript
 // Disable all animations for the chart.
-chart.setAnimationsEnabled( false )
+chart.setAnimationsEnabled(false)
 ```
 
 The slice fill styles can be styled by using a palette. A palette is a collection of fill styles which can be called by index.
 
 ```javascript
-// Use a palette of colors to create the Fill Styles. You can also create your own 
+// Use a palette of colors to create the Fill Styles. You can also create your own
 // - check the ColorPalettes documentation for more info.
 const colorPalette = ColorPalettes.fullSpectrum
 // Create a palette of Fill Styles to use with the Pie Chart's Slices.
-const fillStylePalette = SolidFillPalette( colorPalette, 10 )
-pie.setSliceFillStyle( fillStylePalette )
+const fillStylePalette = SolidFillPalette(colorPalette, 10)
+pie.setSliceFillStyle(fillStylePalette)
 ```
 
 You can also create a custom color palette and use it with the Chart.
@@ -57,40 +57,36 @@ Easiest way to add a custom color palette is to create an array of colors and cr
 ```javascript
 // ----- Create custom Palette for Donut (defines color of Slice filling) ----
 const colorArray = [
-    ColorRGBA( 97, 33, 15, 255 ),
-    ColorRGBA( 255, 140, 66, 255 ),
-    ColorRGBA( 225, 86, 52, 255 ),
-    ColorRGBA( 234, 43, 31, 255 ),
-    ColorRGBA( 249, 223, 116, 255 ),
-    ColorRGBA( 245, 224, 183, 255 )
+    ColorRGBA(97, 33, 15, 255),
+    ColorRGBA(255, 140, 66, 255),
+    ColorRGBA(225, 86, 52, 255),
+    ColorRGBA(234, 43, 31, 255),
+    ColorRGBA(249, 223, 116, 255),
+    ColorRGBA(245, 224, 183, 255),
 ]
-// Create a simple function which returns a color based on index. 
+// Create a simple function which returns a color based on index.
 // Both parameters (length and index) can be used to create more complex functions -
 // length should be the length of the color array.
-const colorPalette = ( length ) => ( index ) => {
+const colorPalette = (length) => (index) => {
     return colorArray[index]
 }
 // Pass the color palette to the SolidFillPalette method,
 // which returns a fillStyle palette that can be used with the Donut Chart
-const fillStylePalette = SolidFillPalette( colorPalette, data.values.length)
+const fillStylePalette = SolidFillPalette(colorPalette, data.values.length)
 // Set the custom fillStyle for the Donut Chart
-donut.setSliceFillStyle( fillStylePalette )
+donut.setSliceFillStyle(fillStylePalette)
 ```
 
 All slices in the chart can have a border surrounding them, which can be styled for the entire chart.
 
 ```javascript
 // Create a StrokeStyle to use with the chart.
-const customStrokeStyle = new SolidLine(
-    {
-        fillStyle: new SolidFill(
-            { color: ColorRGBA(30,144,255) }
-        ),
-         thickness: 5
-    }
-)
+const customStrokeStyle = new SolidLine({
+    fillStyle: new SolidFill({ color: ColorRGBA(30, 144, 255) }),
+    thickness: 5,
+})
 // Set the StrokeStyle to use with all slices in the chart.
-chart.setSliceStrokeStyle( customStrokeStyle )
+chart.setSliceStrokeStyle(customStrokeStyle)
 ```
 
 
@@ -108,27 +104,27 @@ chart.setSliceStrokeStyle( customStrokeStyle )
 
 If you notice an error in the example code, please open an issue on [GitHub][0] repository of the entire example.
 
-Official [API documentation][1] can be found on [Arction][2] website.
+Official [API documentation][1] can be found on [LightningChart][2] website.
 
 If the docs and other materials do not solve your problem as well as implementation help is needed, ask on [StackOverflow][3] (tagged lightningchart).
 
-If you think you found a bug in the LightningChart JavaScript library, please contact support@arction.com.
+If you think you found a bug in the LightningChart JavaScript library, please contact support@lightningchart.com.
 
-Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@arction.com.
+Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@lightningchart.com.
 
 [0]: https://github.com/Arction/
-[1]: https://www.arction.com/lightningchart-js-api-documentation/
-[2]: https://www.arction.com
+[1]: https://lightningchart.com/lightningchart-js-api-documentation/
+[2]: https://lightningchart.com
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
-[4]: https://www.arction.com/support-services/
+[4]: https://lightningchart.com/support-services/
 
-© Arction Ltd 2009-2020. All rights reserved.
+© LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Pie chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/piechart.html
-[Pie Slice label formatter]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#slicelabelformatter
-[Color Palette]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#palette
-[Solid Fill Palette]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/globals.html#solidfillpalette
-[Solid Line]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/solidline.html
-[Solid Fill]: https://www.arction.com/lightningchart-js-api-documentation/v3.4.0/classes/solidfill.html
+[Pie chart]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/PieChart.html
+[Pie Slice label formatter]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/types/SliceLabelFormatter.html
+[Color Palette]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/types/Palette.html
+[Solid Fill Palette]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/functions/SolidFillPalette.html
+[Solid Line]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/SolidLine.html
+[Solid Fill]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/SolidFill.html
 
