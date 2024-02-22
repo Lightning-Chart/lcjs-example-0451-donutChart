@@ -108,7 +108,7 @@ Official [API documentation][1] can be found on [LightningChart][2] website.
 
 If the docs and other materials do not solve your problem as well as implementation help is needed, ask on [StackOverflow][3] (tagged lightningchart).
 
-If you think you found a bug in the LightningChart JavaScript library, please contact support@lightningchart.com.
+If you think you found a bug in the LightningChart JavaScript library, please contact sales@lightningchart.com.
 
 Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@lightningchart.com.
 
@@ -121,10 +121,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Pie chart]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/classes/PieChart.html
-[Pie Slice label formatter]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/types/SliceLabelFormatter.html
-[Color Palette]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/types/Palette.html
-[Solid Fill Palette]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/functions/SolidFillPalette.html
-[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/classes/SolidLine.html
-[Solid Fill]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/classes/SolidFill.html
+[Pie chart]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/PieChart.html
+[Pie Slice label formatter]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/types/SliceLabelFormatter.html
+[Color Palette]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/types/Palette.html
+[Solid Fill Palette]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/functions/SolidFillPalette.html
+[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/SolidLine.html
+[Solid Fill]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/SolidFill.html
 
