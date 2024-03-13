@@ -20,7 +20,7 @@ const {
 
 const donut = lightningChart()
     .Pie({
-        // theme: Themes.darkGold
+        theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: PieChartTypes.LabelsInsideSlices,
     })
     .setTitle('Inter Hotels - hotel visitors in June 2016')
