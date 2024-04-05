@@ -18,7 +18,9 @@ const {
     Themes,
 } = lcjs
 
-const donut = lightningChart()
+const donut = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        })
     .Pie({
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: PieChartTypes.LabelsInsideSlices,
