@@ -121,10 +121,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Pie chart]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/classes/PieChart.html
-[Pie Slice label formatter]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/types/SliceLabelFormatter.html
-[Color Palette]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/types/Palette.html
-[Solid Fill Palette]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/functions/SolidFillPalette.html
-[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/classes/SolidLine.html
-[Solid Fill]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/classes/SolidFill.html
+[Pie chart]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/classes/PieChart.html
+[Pie Slice label formatter]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/types/SliceLabelFormatter.html
+[Color Palette]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/types/Palette.html
+[Solid Fill Palette]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/functions/SolidFillPalette.html
+[Solid Line]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/classes/SolidLine.html
+[Solid Fill]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/classes/SolidFill.html
 
