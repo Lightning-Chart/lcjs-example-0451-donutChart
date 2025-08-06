@@ -9,7 +9,6 @@ const {
     lightningChart,
     PieChartTypes,
     UIElementBuilders,
-    LegendBoxBuilders,
     UIDraggingModes,
     SliceLabelFormatters,
     UIOrigins,
@@ -26,7 +25,6 @@ const donut = lightningChart({
         type: PieChartTypes.LabelsInsideSlices,
     })
     .setTitle('Inter Hotels - hotel visitors in June 2016')
-    .setPadding({ top: 40 })
     .setMultipleSliceExplosion(false)
     // Style as "Donut Chart"
     .setInnerRadius(60)
@@ -47,15 +45,6 @@ for (let i = 0; i < data.values.length; i++) {
 // ----- Create Slices -----
 processedData.map((item) => donut.addSlice(item.name, item.value))
 donut.setLabelFormatter(SliceLabelFormatters.NamePlusValue)
-// ----- Add LegendBox -----
-donut
-    .addLegendBox(LegendBoxBuilders.HorizontalLegendBox)
-    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
-    .setAutoDispose({
-        type: 'max-width',
-        maxWidth: 0.8,
-    })
-    .add(donut)
 
 // ----- Add TextBox -----
 donut
